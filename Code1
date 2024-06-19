@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Technical Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+        <a class="nav-link" href="#Hello_World">Hello World</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Data_Types">Data Types</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>This is an introduction to technical documentation.</p>
+            <p>Technical documentation is an essential part of any software development project.</p>
+            <p>It provides a clear understanding of the project's requirements and implementation details.</p>
+            <code>console.log("Hello World");</code>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+        </section>
+        <section class="main-section" id="JavaScript_and_Java">
+            <header>JavaScript and Java</header>
+            <p>JavaScript and Java are two different programming languages.</p>
+            <p>JavaScript is a client-side language, while Java is a server-side language.</p>
+            <p>JavaScript is used for creating interactive web pages, while Java is used for creating enterprise-level applications.</p>
+            <code>public class HelloWorld { public static void main(String[] args) { System.out.println("Hello World"); } }</code>
+            <ul>
+                <li>JavaScript is a client-side language.</li>
+                <li>Java is a server-side language.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <p>Hello World is a traditional program to print "Hello World" on the screen.</p>
+            <p>It is often used as a "Hello, World!" program, which is a program that prints "Hello, World!" to the screen.</p>
+            <p>In JavaScript, you can print "Hello World" using the console.log function.</p>
+            <code>console.log("Hello World");</code>
+            <ul>
+                <li>Hello World in JavaScript.</li>
+                <li>Hello World in Java.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>Variables are used to store values.</p>
+            <p>In JavaScript, you can declare a variable using the let, const, or var keyword.</p>
+            <p>Variables can be of different data types, such as number, string, boolean, etc.</p>
+            <p>In Java, you can declare a variable using the data type followed by the variable name.</p>
+            <code>let x = 10;</code>
+            <ul>
+                <li>Variable declaration.</li>
+                <li>Variable assignment.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Data_Types">
+            <header>Data Types</header>
+            <p>Data types are used to define the type of a variable.</p>
+            <p>In JavaScript, there are several data types, including number, string, boolean, null, undefined, etc.</p>
+            <p>In Java, there are several data types, including int, double, boolean, char, etc.</p>
+            <p>Data types are important because they determine the type of operations that can be performed on a variable.</p>
+            <code>let x = 10; // number</code>
+            <ul>
+                <li>Number data type.</li>
+                <li>String data type.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
